@@ -37,7 +37,6 @@ munkres==1.1.4
 mypy-extensions==0.4.3
 mysql-connector==2.2.9
 mysql-connector-python==8.0.31
-navigator-updater==0.3.0
 nba-api==1.1.14
 numpy==1.23.5
 openpyxl==3.0.10
