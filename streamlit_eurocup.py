@@ -29,14 +29,14 @@ for font_file in font_files:
 plt.rcParams['font.family'] = "Poppins"
 plt.rcParams['font.size'] = '10.6'
 
-image = Image.open("/Users/sissigarduno/Desktop/DATA/IMAGES/EUROCUP/LOGOS/EUROCUP.png")
+image = Image.open("EUROCUP.png")
 st.sidebar.image(image)
 
 
 #Web scraping of data
-df = pd.read_csv("/Users/sissigarduno/Desktop/DATA/Data Eurocup - Stats.csv")
-df_shots = pd.read_csv("/Users/sissigarduno/Desktop/DATA/Data Eurocup - Shots.csv")
-df_round = pd.read_csv("/Users/sissigarduno/Desktop/DATA/Data Eurocup - Shots.csv")
+df = pd.read_csv("Data Eurocup - Stats.csv")
+df_shots = pd.read_csv("Data Eurocup - Shots.csv")
+df_round = pd.read_csv("Data Eurocup - Shots.csv")
 
 #Filters
 st.sidebar.header('Filters')
